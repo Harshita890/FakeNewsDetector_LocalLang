@@ -18,7 +18,7 @@ The app classifies news text as Real or Fake and is optimized for low-end system
 
 ## How to Run
 * pip install streamlit pandas scikit-learn matplotlib seaborn openpyxl
-* streamlit run app.py
+* streamlit run code.py
 
 ## Features
 - Fake / Real news prediction
