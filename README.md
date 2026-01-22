@@ -1,20 +1,20 @@
 # Fake News Detector
 
-A lightweight Fake News Detection web application built using Machine Learning and Streamlit.  
-The app classifies news text as Real or Fake and is optimized for low-end systems.
+A lightweight Fake News Detection web application built using Machine Learning and Streamlit.
+The application classifies news text as Real or Fake and is optimized to run smoothly on low-end systems.
 
 ## Technologies Used
 - Python
 - Streamlit
 - Scikit-learn
 - TF-IDF Vectorizer
-- Logistic Regression
+- Passive Aggressive Classifier
 
 ## Dataset
 - File: indiafakenews.xlsx
 - Label Encoding:
-  - 0 = Real News
-  - 1 = Fake News
+  - 1= Real News
+  - 0= Fake News
 
 ## How to Run
 * pip install streamlit pandas scikit-learn matplotlib seaborn openpyxl
